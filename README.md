@@ -4,6 +4,6 @@
 
 ![](./images/white.png)
 
-## Dark2
+## Dark
 
-![](./images/dark2.png)
+![](./images/dark.png)
