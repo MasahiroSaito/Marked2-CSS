@@ -7,3 +7,7 @@
 ## Dark
 
 ![](./images/dark.png)
+
+## Monokai-like
+
+![](./images/Monokai-like.png)

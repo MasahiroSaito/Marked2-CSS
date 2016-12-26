@@ -1,4 +1,4 @@
-/* line 11, ../sass/Dark-SASS.scss */
+/* line 11, ../sass/Monokai-like.scss */
 html {
   font-family: sans-serif;
   box-sizing: border-box;
@@ -6,42 +6,42 @@ html {
   color: #ffffff;
 }
 
-/* line 18, ../sass/Dark-SASS.scss */
+/* line 18, ../sass/Monokai-like.scss */
 body {
   line-height: 1.5;
   font-size: 16px;
 }
 
-/* line 23, ../sass/Dark-SASS.scss */
+/* line 23, ../sass/Monokai-like.scss */
 p {
   color: #ffffff;
 }
 
-/* line 27, ../sass/Dark-SASS.scss */
+/* line 27, ../sass/Monokai-like.scss */
 a {
   color: #66d9ef;
   text-decoration: none;
 }
 
-/* line 32, ../sass/Dark-SASS.scss */
+/* line 32, ../sass/Monokai-like.scss */
 strong {
   color: #f92672;
 }
 
-/* line 36, ../sass/Dark-SASS.scss */
+/* line 36, ../sass/Monokai-like.scss */
 img {
   max-width: 100%;
   box-sizing: content-box;
 }
 
-/* line 41, ../sass/Dark-SASS.scss */
+/* line 41, ../sass/Monokai-like.scss */
 ul, ol {
   margin-left: 30px;
   padding-left: 2em;
   padding-left: 0;
 }
 
-/* line 47, ../sass/Dark-SASS.scss */
+/* line 47, ../sass/Monokai-like.scss */
 blockquote {
   padding: 0 1em;
   color: #777;
@@ -50,7 +50,7 @@ blockquote {
   margin: 0;
 }
 
-/* line 55, ../sass/Dark-SASS.scss */
+/* line 55, ../sass/Monokai-like.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #fd971f;
   margin-top: 24px;
@@ -59,7 +59,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.25;
 }
 
-/* line 63, ../sass/Dark-SASS.scss */
+/* line 63, ../sass/Monokai-like.scss */
 h1 {
   font-size: 32px;
   border-bottom-color: white;
@@ -68,7 +68,7 @@ h1 {
   padding-bottom: 9.6px;
 }
 
-/* line 71, ../sass/Dark-SASS.scss */
+/* line 71, ../sass/Monokai-like.scss */
 h2 {
   border-bottom-color: white;
   border-bottom-style: solid;
@@ -77,7 +77,7 @@ h2 {
   font-size: 1.5em;
 }
 
-/* line 79, ../sass/Dark-SASS.scss */
+/* line 79, ../sass/Monokai-like.scss */
 tt, code {
   font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
   background: #000000;
@@ -87,19 +87,19 @@ tt, code {
   color: #a6e22e;
 }
 
-/* line 88, ../sass/Dark-SASS.scss */
+/* line 88, ../sass/Monokai-like.scss */
 code::before, code::after, tt::before, tt::after {
   letter-spacing: -0.2em;
   content: "\00a0";
 }
 
-/* line 93, ../sass/Dark-SASS.scss */
+/* line 93, ../sass/Monokai-like.scss */
 pre code {
   border-style: solid;
   border-color: #4F4F4F;
 }
 
-/* line 98, ../sass/Dark-SASS.scss */
+/* line 98, ../sass/Monokai-like.scss */
 table {
   background: #272822;
   width: 100%;
@@ -109,30 +109,30 @@ table {
   border-collapse: collapse;
   display: table;
 }
-/* line 109, ../sass/Dark-SASS.scss */
+/* line 109, ../sass/Monokai-like.scss */
 table thead {
   display: table-header-group;
   vertical-align: middle;
   color: #ffffff;
   border: 1px solid #4f4f4f;
 }
-/* line 116, ../sass/Dark-SASS.scss */
+/* line 116, ../sass/Monokai-like.scss */
 table tbody {
   display: table-row-group;
   vertical-align: middle;
   color: #6f99ab;
 }
-/* line 122, ../sass/Dark-SASS.scss */
+/* line 122, ../sass/Monokai-like.scss */
 table tr {
   display: table-row;
   vertical-align: inherit;
   border: 1px solid #4f4f4f;
 }
-/* line 128, ../sass/Dark-SASS.scss */
+/* line 128, ../sass/Monokai-like.scss */
 table th {
   font-weight: bold;
 }
-/* line 132, ../sass/Dark-SASS.scss */
+/* line 132, ../sass/Monokai-like.scss */
 table th, table td {
   border: 1px solid #4f4f4f;
   padding: 6px 13px;
