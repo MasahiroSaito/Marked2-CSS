@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+$background: #272822;
+$table_background: #272822;
+
+$color: #ffffff;
+$p_color: #ffffff;
+$a_color: #66d9ef;
+$h_color: #fd971f;
+
+html {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    background: $background;
+    color: $color;
+}
+
+body {
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+p {
+    color: $p_color;
+}
+
+a {
+    color: $a_color;
+    text-decoration: none;
+}
+
+strong {
+    color: #f92672;
+}
+
+img {
+    max-width: 100%;
+    box-sizing: content-box;
+}
+
+ul, ol {
+    margin-left: 30px;
+    padding-left: 2em;
+    padding-left: 0;
+}
+
+blockquote {
+    padding: 0 1em;
+    color: #777;
+    border-left: 0.25em solid #ddd;
+    border-color: #304251;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: $h_color;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+h1 {
+    font-size: 32px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 9.6px;
+}
+
+h2 {
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    padding-bottom: 0.3em;
+    font-size: 1.5em;
+}
+
+tt, code {
+    font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    background: #000000;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 3px;
+    color: #a6e22e;
+}
+
+code::before, code::after, tt::before, tt::after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+pre code {
+    border-style: solid;
+    border-color: #4F4F4F;
+}
+
+table {
+    background: $table_background;
+    width: 100%;
+    overflow: auto;
+
+    border: 1px solid #4f4f4f;
+    border-spacing: 0;
+    border-collapse: collapse;
+
+    display: table;
+
+    thead {
+        display: table-header-group;
+        vertical-align: middle;
+        color: #ffffff;
+        border: 1px solid #4f4f4f;
+    }
+
+    tbody {
+        display: table-row-group;
+        vertical-align: middle;
+        color: #6f99ab;
+    }
+
+    tr {
+        display: table-row;
+        vertical-align: inherit;
+        border: 1px solid #4f4f4f;
+    }
+
+    th {
+        font-weight: bold;
+    }
+
+    th, td {
+        border: 1px solid #4f4f4f;
+        padding: 6px 13px;
+        display: table-cell;
+        ertical-align: inherit;
+    }
+}

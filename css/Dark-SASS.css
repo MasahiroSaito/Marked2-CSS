@@ -1,0 +1,141 @@
+/* line 11, ../sass/Dark-SASS.scss */
+html {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  background: #272822;
+  color: #ffffff;
+}
+
+/* line 18, ../sass/Dark-SASS.scss */
+body {
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* line 23, ../sass/Dark-SASS.scss */
+p {
+  color: #ffffff;
+}
+
+/* line 27, ../sass/Dark-SASS.scss */
+a {
+  color: #66d9ef;
+  text-decoration: none;
+}
+
+/* line 32, ../sass/Dark-SASS.scss */
+strong {
+  color: #f92672;
+}
+
+/* line 36, ../sass/Dark-SASS.scss */
+img {
+  max-width: 100%;
+  box-sizing: content-box;
+}
+
+/* line 41, ../sass/Dark-SASS.scss */
+ul, ol {
+  margin-left: 30px;
+  padding-left: 2em;
+  padding-left: 0;
+}
+
+/* line 47, ../sass/Dark-SASS.scss */
+blockquote {
+  padding: 0 1em;
+  color: #777;
+  border-left: 0.25em solid #ddd;
+  border-color: #304251;
+  margin: 0;
+}
+
+/* line 55, ../sass/Dark-SASS.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #fd971f;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+/* line 63, ../sass/Dark-SASS.scss */
+h1 {
+  font-size: 32px;
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 9.6px;
+}
+
+/* line 71, ../sass/Dark-SASS.scss */
+h2 {
+  border-bottom-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  padding-bottom: 0.3em;
+  font-size: 1.5em;
+}
+
+/* line 79, ../sass/Dark-SASS.scss */
+tt, code {
+  font: 12px Consolas, "Liberation Mono", Menlo, Courier, monospace;
+  background: #000000;
+  border-width: 1px;
+  border-radius: 10px;
+  padding: 3px;
+  color: #a6e22e;
+}
+
+/* line 88, ../sass/Dark-SASS.scss */
+code::before, code::after, tt::before, tt::after {
+  letter-spacing: -0.2em;
+  content: "\00a0";
+}
+
+/* line 93, ../sass/Dark-SASS.scss */
+pre code {
+  border-style: solid;
+  border-color: #4F4F4F;
+}
+
+/* line 98, ../sass/Dark-SASS.scss */
+table {
+  background: #272822;
+  width: 100%;
+  overflow: auto;
+  border: 1px solid #4f4f4f;
+  border-spacing: 0;
+  border-collapse: collapse;
+  display: table;
+}
+/* line 109, ../sass/Dark-SASS.scss */
+table thead {
+  display: table-header-group;
+  vertical-align: middle;
+  color: #ffffff;
+  border: 1px solid #4f4f4f;
+}
+/* line 116, ../sass/Dark-SASS.scss */
+table tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  color: #6f99ab;
+}
+/* line 122, ../sass/Dark-SASS.scss */
+table tr {
+  display: table-row;
+  vertical-align: inherit;
+  border: 1px solid #4f4f4f;
+}
+/* line 128, ../sass/Dark-SASS.scss */
+table th {
+  font-weight: bold;
+}
+/* line 132, ../sass/Dark-SASS.scss */
+table th, table td {
+  border: 1px solid #4f4f4f;
+  padding: 6px 13px;
+  display: table-cell;
+  ertical-align: inherit;
+}
